@@ -1,5 +1,5 @@
 # Expense Tracker App
-
+Project created for full-stack expense tracking.
 A full-stack Expense Tracker application built using:
 
 * React.js frontend
