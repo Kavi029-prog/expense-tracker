@@ -1,0 +1,6 @@
+venv/
+**pycache**/
+.env
+node_modules/
+dist/
+.streamlit/

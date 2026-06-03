@@ -1,0 +1,28 @@
+.expense-select {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    background-color: white;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+
+.expense-select:focus {
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
