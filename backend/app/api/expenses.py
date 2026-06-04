@@ -154,7 +154,7 @@ def update_expense(
 
     expense.note = updated_expense.note
 
-    expense.date = updated_expense.date
+    expense.expense_date = updated_expense.expense_date
 
     db.commit()
 
