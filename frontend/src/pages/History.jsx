@@ -27,7 +27,7 @@ function History() {
 
       const response = await axios.get(
 
-        "https://expense-tracker-backend-1m1o.onrender.com/expenses"
+        "https://expense-tracker-backend-1m1o.onrender.com/expenses",
 
         {
           headers: {

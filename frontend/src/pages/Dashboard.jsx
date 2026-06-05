@@ -78,9 +78,7 @@ function Dashboard() {
       const token = localStorage.getItem("token")
 
       const response = await axios.get(
-
         `${API_URL}/summary?month=${month}`,
-
         {
           headers: {
             Authorization: `Bearer ${token}`
