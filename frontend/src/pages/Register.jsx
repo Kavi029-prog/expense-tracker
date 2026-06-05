@@ -1,3 +1,5 @@
+import API_URL from "../config";
+
 import { useState } from "react"
 
 import axios from "axios"
@@ -24,7 +26,7 @@ function Register() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/register",
+        `${API_URL}/register`,
 
         {
           username,
