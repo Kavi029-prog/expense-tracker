@@ -1,6 +1,9 @@
 import { Link, useNavigate } from "react-router-dom"
 
+import { Link } from "react-router-dom"
+
 import "./Navbar.css"
+
 
 
 function Navbar() {
@@ -12,7 +15,8 @@ function Navbar() {
 
     localStorage.removeItem("token")
 
-    navigate("/")
+    window.location.href =
+      "https://expense-tracker-czejn6glwwksjbdpl7ts9v.streamlit.app";
   }
 
 
