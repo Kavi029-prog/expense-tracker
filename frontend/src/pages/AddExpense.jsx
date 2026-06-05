@@ -68,7 +68,7 @@ function AddExpense() {
 
       await axios.post(
 
-        "https://expense-tracker-backend-1m1o.onrender.com/expenses"
+        `${API_URL}/expenses`,
 
         {
           title,
