@@ -111,7 +111,7 @@ with tab1:
 
                     "Open Expense Tracker Dashboard",
 
-                    f"https://expense-tracker-kappa-beige.vercel.app/dashboard?token={token}"
+                    f"https://expense-tracker-y4a8.vercel.app/dashboard?token={token}"
                 )
 
             else:
