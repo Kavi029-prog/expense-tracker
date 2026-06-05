@@ -1,3 +1,5 @@
+import API_URL from "../config";
+
 import { useEffect, useState } from "react"
 
 import axios from "axios"
@@ -25,7 +27,7 @@ function History() {
 
       const response = await axios.get(
 
-        "http://127.0.0.1:8000/expenses",
+        "https://expense-tracker-backend-1m1o.onrender.com/expenses"
 
         {
           headers: {
@@ -51,7 +53,7 @@ function History() {
 
       await axios.delete(
 
-        `http://127.0.0.1:8000/expenses/${id}`,
+        `${API_URL}/expenses/${id}`,
 
         {
           headers: {

@@ -4,6 +4,8 @@ import axios from "axios"
 
 import Navbar from "../components/Navbar"
 
+import API_URL from "../config";
+
 
 function AddExpense() {
 
@@ -35,7 +37,7 @@ function AddExpense() {
 
       const response = await axios.get(
 
-        "http://127.0.0.1:8000/categories",
+        `${API_URL}/categories`,
 
         {
           headers: {
@@ -66,7 +68,7 @@ function AddExpense() {
 
       await axios.post(
 
-        "http://127.0.0.1:8000/expenses",
+        "https://expense-tracker-backend-1m1o.onrender.com/expenses"
 
         {
           title,

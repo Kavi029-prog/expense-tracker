@@ -1,3 +1,5 @@
+import API_URL from "../config";
+
 import { useEffect, useState } from "react"
 
 import axios from "axios"
@@ -77,7 +79,7 @@ function Dashboard() {
 
       const response = await axios.get(
 
-        `http://127.0.0.1:8000/summary?month=${month}`,
+        `${API_URL}/summary?month=${month}`,
 
         {
           headers: {
@@ -103,7 +105,7 @@ function Dashboard() {
 
       const response = await axios.get(
 
-        "http://127.0.0.1:8000/expenses",
+        `${API_URL}/expenses`,
 
         {
           headers: {
@@ -129,7 +131,7 @@ function Dashboard() {
 
       const response = await axios.get(
 
-        "http://127.0.0.1:8000/income",
+        `${API_URL}/income`,
 
         {
           headers: {
