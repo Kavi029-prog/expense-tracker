@@ -111,7 +111,7 @@ with tab1:
 
                     "Open Expense Tracker Dashboard",
 
-                    f"http://localhost:5173/dashboard?token={token}"
+                    f"http://expense-tracker-qguh69mw2-kavi029-progs-projects.vercel.app/dashboard?token={token}"
                 )
 
             else:
