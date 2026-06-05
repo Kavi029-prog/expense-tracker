@@ -246,7 +246,7 @@ button:hover {
 
 .charts-grid {
 
-  display: flex;
+   display: flex;
 
   flex-direction: column;
 
@@ -258,7 +258,7 @@ button:hover {
 
 .chart-box {
 
-  background: white;
+  background: rgb(211, 182, 182);
 
   padding: 20px;
 
@@ -293,9 +293,12 @@ button:hover {
 }
 
 .charts-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 30px;
+
   margin-top: 30px;
 }
 
