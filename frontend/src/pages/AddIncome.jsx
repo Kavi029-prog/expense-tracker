@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar"
 
 import axios from "axios"
 
+import API_URL from "../config";
+
 
 function AddIncome() {
 
@@ -22,7 +24,7 @@ function AddIncome() {
 
       await axios.post(
 
-        "http://127.0.0.1:8000/income",
+        `${API_URL}/income`,
 
         {
           amount: Number(amount),
